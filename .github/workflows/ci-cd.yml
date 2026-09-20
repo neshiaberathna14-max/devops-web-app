@@ -1,0 +1,6 @@
+services:
+  web:
+    image: YOUR_DOCKERHUB_USERNAME/devops-web-app:latest
+    ports:
+      - "5001:5001"   # if your app code runs on port 5001
+      # - "5001:5000" # use this instead if your app still listens on 5000
