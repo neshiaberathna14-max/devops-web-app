@@ -1,0 +1,7 @@
+services:
+  web:
+    image: neshiaberathna/devops-web-app:latest
+    container_name: devops-web-app
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
